@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis - Sohan PM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header, footer, nav {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        header {
+            top: 0;
+        }
+        nav {
+            top: 134px; /* Adjust based on header height */
+            background-color: #0055a5;
+        }
+        footer {
+            bottom: 0;
+            width: 100%;
+            position: fixed;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #003366;
+        }
+        .container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px 10%;
+            margin-top: 134px; /* Adjust based on header and nav height */
+            margin-bottom: 50px; /* Adjust based on footer height */
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #cccccc;
+        }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px; /* Ensure icon size */
+        }
+        .social-icons a:hover {
+            color: #ffdd00;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Sohan PM</h1>
+        <p>Research Scholar in Physical Oceanography at CSIR-NIO, Goa</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="data-analysis.html">Data Analysis</a>
+        <a href="publications.html">Publications</a>
+        <a href="software-tools.html">Software Tools</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="data-collection">
+            <h2>Data Collection and Preprocessing</h2>
+            <p>Describe the data sources (e.g., satellite data, in-situ measurements) and their characteristics (resolution, temporal coverage).</p>
+            <p>Outline any preprocessing steps such as data cleaning, quality control, and format conversion (e.g., NetCDF to CSV).</p>
+        </section>
+
+        <section id="eda">
+            <h2>Exploratory Data Analysis (EDA)</h2>
+            <p>Present summary statistics, histograms, and other visualizations to explore the characteristics of your data.</p>
+            <p>Identify any trends, anomalies, or patterns.</p>
+        </section>
+
+        <section id="statistical-analysis">
+            <h2>Statistical Analysis</h2>
+            <p>Detail the statistical methods used (e.g., regression analysis, time series analysis).</p>
+            <p>Interpret results and discuss their significance in the context of oceanographic processes.</p>
+        </section>
+
+        <section id="spatial-analysis">
+            <h2>Spatial Analysis</h2>
+            <p>Utilize geographic data analysis tools (e.g., xarray, cartopy) to analyze spatial patterns.</p>
+            <p>Create maps and visualizations to illustrate spatial relationships.</p>
+        </section>
+
+        <section id="temporal-analysis">
+            <h2>Temporal Analysis</h2>
+            <p>Analyze temporal trends and variability in oceanographic parameters over time.</p>
+            <p>Use time series analysis techniques to identify cycles or long-term changes.</p>
+        </section>
+
+        <section id="modeling">
+            <h2>Modeling</h2>
+            <p>Describe any numerical models or simulations used to complement your analysis.</p>
+            <p>Compare model outputs with observational data and discuss model validation.</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://facebook.com/S0HAN.PM" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/the_desi_alpha" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>   
+            <a href="https://twitter.com/S0HAN_PM" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sohanpm" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/sohan-pm" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://orcid.org/0000-0003-3180-4792" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+        </div>
+        <p>Designed and administrated by Sohan PM.</p>
+    </footer>
+</body>
+</html>
