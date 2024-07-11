@@ -75,6 +75,27 @@
         .social-icons a i {
             font-size: 20px;
         }
+        @media (max-width: 768px) {
+            header, nav, footer {
+                padding: 10px;
+            }
+            nav {
+                top: 100px; /* Adjust based on header height */
+            }
+            .container {
+                padding: 10px 5%;
+                margin-top: 150px; /* Adjust based on header and nav height */
+            }
+            .profile-pic {
+                float: none;
+                display: block;
+                margin: 0 auto 20px;
+            }
+            .about-text {
+                margin-left: 0;
+                text-align: center;
+            }
+        }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -107,7 +128,7 @@
                 <li>Indian Meteorological Society : LM-3899</li>
                 <li>Ocean Society of India : LM-684</li>
                 <li>Mangrove Society of India : LM-XXX</li>
-                </ul>
+            </ul>
         </section>
 
         <section id="portfolio">
